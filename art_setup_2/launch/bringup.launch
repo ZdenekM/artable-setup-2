@@ -19,7 +19,7 @@
       <arg name="depth_method" value="cuda"/>
     </include-->
 
-    <include file="$(find art_projected_gui)/launch/projector.launch">
+    <include file="$(find art_projector)/launch/projector.launch">
       <arg name="screen_number" value="1"/>
       <arg name="projector_id" value="left"/>
     </include>
